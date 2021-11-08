@@ -1,0 +1,37 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ui": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
+    "api": "nodemon server/app",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
+    "socket.io": "^4.3.2",
+    "socket.io-client": "^4.3.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^7.20.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^2.0.14",
+    "sass-loader": "^8.0.2",
+    "vue-eslint-parser": "^7.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

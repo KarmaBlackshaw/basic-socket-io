@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-      <input type="text" v-model="room">
-      <button @click="handleClickJoinRoom">Join Room</button>
-      <button @click="handleClickLeaveRoom">Leave Room</button>
+    <input type="text" v-model="room">
+    <button @click="handleClickJoinRoom">Join Room</button>
+    <button @click="handleClickLeaveRoom">Leave Room</button>
   </div>
 </template>
 

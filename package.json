@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "ui": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
-    "api": "nodemon server/app",
+    "api": "node server/app",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

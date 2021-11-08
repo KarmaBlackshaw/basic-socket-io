@@ -1,24 +1,31 @@
-# ui
+# Simple Socket IO
 
-## Project setup
-```
-npm install
-```
+A simple setup of Socket IO in Client and Server
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Join/Leave room
+- Dynamic namespace
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Setup
 
-### Lints and fixes files
-```
-npm run lint
+Install the dependencies and devDependencies and start the application.
+
+```sh
+cd basic-socket-io
+npm i
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Start the Client
+
+```sh
+npm run ui
+```
+
+Start the Server
+
+```sh
+npm run api
+```
+
+## Development
+
+Want to contribute? Great!
